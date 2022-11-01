@@ -1,0 +1,46 @@
+.pixel {
+  width:20px;
+  height:20px;
+}
+
+.centered {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+h1, p {
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-weight:lighter;
+  font-size:30pt;
+  margin-bottom:-5px;
+}
+
+p {
+  font-size:8pt;
+  color:#bbb;
+}
+
+.pixel-area {
+  display:grid;
+  grid-template-columns: repeat(30, 20px);
+  justify-content:center;
+}
+
+button {
+  width:20px;
+  height:20px;
+  border:solid #ddd 1px;
+}
+
+.btnClass {
+  background:white;
+}
+
+.btnClass.clicked {
+  background:black;
+}
